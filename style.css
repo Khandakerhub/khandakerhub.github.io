@@ -18,7 +18,7 @@ body {
 }
 
 header {
-  background: linear-gradient(to right, #323a3f, #34505e);
+  background: linear-gradient(to right, #0a324b, #0b598a);
   color: #fff;
   padding: 3rem 1rem;
 }
@@ -62,10 +62,11 @@ a {
 /* Project Section */
 #projects {
   padding: 3rem 1rem;
-  background: #ffffff;
+  background: #1d1d25;
 }
 
 #projects h2 {
+    color: #02a3fa;
   text-align: center;
   font-size: 2rem;
   margin-bottom: 2rem;
@@ -80,11 +81,12 @@ a {
 
 .project-card {
   display: block;
-  background: #fff;
+  background: linear-gradient(to right, #0a324b, #0b598a);
   border-radius: 8px;
   overflow: hidden;
   text-align: center;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border: 1px solid #02a3fa;
+  box-shadow: 0 0 10px rgba(1, 193, 252, 0.493);
   width: 300px;
   transition: transform 0.3s;
 }
@@ -108,11 +110,14 @@ img.cardImage {
     width: auto;
     margin-top: 20px;
 }
+span.cardDescription{
+    color:#b4cff8;
+}
 
 /* Contact Section */
 #contact {
   padding: 3rem 1rem;
-  background: #e9f5ff;
+  background: #49789e;
   text-align: center;
 }
 
@@ -137,7 +142,7 @@ input, textarea {
 }
 
 button {
-  background: #0077b6;
+  background: linear-gradient(to right, #0a324b, #0b598a);
   color: #fff;
   border: none;
   padding: 0.8rem;

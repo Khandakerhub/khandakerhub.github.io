@@ -1,0 +1,178 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #b4cff8;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+}
+
+header {
+  background: linear-gradient(to right, #323a3f, #34505e);
+  color: #fff;
+  padding: 3rem 1rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+a {
+    text-decoration: none;
+}
+
+.social-icons {
+  margin-top: 1rem;
+}
+
+.icon {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+.icon.fb { background: #3b5998; }
+.icon.tw { background: #1da1f2; }
+.icon.li { background: #0077b5; }
+.icon.gh { background: #333; }
+
+.icon:hover {
+  transform: scale(1.1) rotate(2deg);
+}
+
+/* Project Section */
+#projects {
+  padding: 3rem 1rem;
+  background: #ffffff;
+}
+
+#projects h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.project-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.project-card {
+  display: block;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 300px;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+}
+
+.project-card span {
+  display: block;
+  padding: 0.8rem;
+  font-weight: 600;
+}
+img.cardImage {
+    height: 100px;
+    width: auto;
+    margin-top: 20px;
+}
+
+/* Contact Section */
+#contact {
+  padding: 3rem 1rem;
+  background: #e9f5ff;
+  text-align: center;
+}
+
+#contact h2 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input, textarea {
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background: #0077b6;
+  color: #fff;
+  border: none;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #023e8a;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: #023e8a;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .project-gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  #projects h2,
+  #contact h2 {
+    font-size: 1.5rem;
+  }
+}

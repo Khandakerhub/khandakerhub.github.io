@@ -14,13 +14,13 @@ body {
 
 .container {
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 header {
     background: linear-gradient(to right, #0a324b, #0b598a);
     color: #fff;
-    padding: 3rem 1rem;
+    padding: 1rem;
     border-bottom: 1px solid #02a3fa;
 }
 

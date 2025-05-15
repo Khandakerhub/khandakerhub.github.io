@@ -78,12 +78,14 @@ a {
 }
 
 /* Project Section */
-#projects {
+#projects, 
+#business {
     padding: 3rem 1rem;
     background: #1d1d25;
 }
 
-#projects h2 {
+#projects h2,  
+#business h2 {
     color: #02a3fa;
     text-align: center;
     font-size: 2rem;
@@ -202,6 +204,7 @@ footer {
     }
 
     #projects h2,
+    #business h2,
     #contact h2 {
         font-size: 1.5rem;
     }
